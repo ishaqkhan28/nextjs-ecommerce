@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-img{
+  background-image: url('../../public/images/istockphoto-1497929753-1024x1024.png');
+}
+
+.promo-1{
+  background-image: url('../../public/images/istockphoto-1323255241-1024x1024.webp');
+}
+
+.promo-2{
+  background-image: url('../../public/images/premium_photo-1681276170069-36fa70186f7b.avif');
+}

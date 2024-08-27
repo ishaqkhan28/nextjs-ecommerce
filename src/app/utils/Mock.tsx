@@ -1,0 +1,97 @@
+import { Product } from './Type'
+
+const Products:Product[]= [
+    {
+        id: 1,
+        tittle: "White Women Printed T-Shirt",
+        image: [ "/images/a6a38f6a1f31dafe5f3294a4384f865b7d25a344-370x394.png"],
+        slug: "white-women-printed-t-shirt",
+        price: 150,
+        discount: 20,
+        category: 'tops',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"],
+    },
+    {
+        id: 2,
+        tittle: "Black Women Printed Denim",
+        image: ["/images/7739d01f547a127eca9fdfdb267935974e8d2b83-278x296.png"],
+        slug: "black-women-printed-t-denim",
+        price: 150,
+        discount: 20,
+        category: 'pents',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"]
+    },
+    {
+        id: 3,
+        tittle: "Super Sneaker",
+        image: ["/images/premium_photo-1682125177822-63c27a3830ea.avif"],
+        slug: "super-sneaker",
+        price: 150,
+        discount: 40,
+        category: 'shoes',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa", "#000000", "#e60000"],
+    },
+    {
+        id: 4,
+        tittle: "Black Pumpess",
+        image: ["/images/a32a2de170028beeda716f33c34802b0.jpg"],
+        slug: "black-pumpess",
+        price: 150,
+        discount: 40,
+        category: 'shoes',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"]
+    },
+    {
+        id: 5,
+        tittle: "Gucci Black Parse",
+        image: ["/images/gucci.avif"],
+        slug: "gucci-plack-parse",
+        price: 2500,
+        discount: 30,
+        category: 'accessories',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"]
+    },
+    {
+        id: 6,
+        tittle: "White Women Printed T-Shirt",
+        image: ["/images/istockphoto-516638751-1024x1024 (1).webp"],
+        slug: "white-women-printed-t-shirt",
+        price: 150,
+        discount: 60,
+        category: 'tops',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"]
+    },
+    {
+        id: 7,
+        tittle: "Overcoat",
+        image: ["/images/feature.png"],
+        slug: "grey-coat",
+        price: 150,
+        discount: 50,
+        category: 'tops',
+        discription: 'Best Quality T-Shirt for Women. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eum neque doloremque, corrupti sunt harum soluta quo architecto minima, odit qui eveniet eligendi quis inventore consequatur eos incidunt voluptates? Asperiores.',
+        size: ["S", "M", "L", "XL"],
+        qty: 1,
+        color: ["#fafafa","#000000","#e60000"]
+    },
+]
+
+export default Products
