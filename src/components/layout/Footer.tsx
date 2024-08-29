@@ -11,7 +11,7 @@ function Footer() {
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="space-y-6 w-64 flex-shrink-0 md:mx-0 mx-auto text-start md:text-left">
               <Link href={"/"} className="flex title-font font-medium items-start md:justify-start justify-start text-myBlackhead">
-                <Image width={150} height={150} src={"/images/Logo.png"} alt="Logo" className="bg-white rounded-full" />
+                <Image width={150} height={150} src={"/images/logo.png"} alt="Logo" className="bg-white rounded-full" />
               </Link>
               <p className="mt-2">Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
             </div>
